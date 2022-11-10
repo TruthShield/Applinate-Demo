@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Applinate.Microservice.Foundation" Version="0.2.0" />
+    <PackageReference Include="Applinate.Microservice.Foundation" Version="0.3.1" />
+    <PackageReference Include="Applinate.Microservice.InversionOfControl.Microsoft" Version="0.3.0" />
   </ItemGroup>
 
   <ItemGroup>

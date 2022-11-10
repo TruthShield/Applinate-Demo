@@ -12,7 +12,7 @@
         {
             Console.WriteLine("Intercepting the behavior completely");
 
-            return Task.FromResult(new MyResponse(RequestStatus.Success, 0));
+            return Task.FromResult(new MyResponse(ResponseStatus.Success, 0));
         }
     }
 }

@@ -1,14 +1,14 @@
 ﻿namespace Demo
 {
-    public sealed class MyResponse : IHaveRequestStatus
+    public sealed class MyResponse : IHaveResponseStatus
     {
-        public MyResponse(RequestStatus status, int value1)
+        public MyResponse(ResponseStatus status, int value1)
         {
             Status = status;
             Value1 = value1;
         }
 
-        public RequestStatus Status { get; }
+        public ResponseStatus Status { get; }
         public int Value1 { get; }
     }
 }

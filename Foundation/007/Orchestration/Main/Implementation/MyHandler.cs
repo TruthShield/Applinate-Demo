@@ -8,7 +8,7 @@
         {
             Console.WriteLine("This will not be executed, the call has been intercepted");
 
-            var response = new MyResponse(RequestStatus.Success, arg.Arg);
+            var response = new MyResponse(ResponseStatus.Success, arg.Arg);
             return Task.FromResult(response);
         }
     }

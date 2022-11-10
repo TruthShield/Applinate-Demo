@@ -6,7 +6,7 @@
             MyRequest arg, 
             CancellationToken cancellationToken = default)
         {
-            var response = new MyResponse(RequestStatus.Success, arg.Arg);
+            var response = new MyResponse(ResponseStatus.Success, arg.Arg);
             return Task.FromResult(response);
         }
     }
