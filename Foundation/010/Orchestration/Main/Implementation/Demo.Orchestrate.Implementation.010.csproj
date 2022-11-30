@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Applinate.Microservice.Foundation" Version="0.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Integration\Main\Abstractions\Demo.Integrate.Abstractions.010.csproj" />
+    <ProjectReference Include="..\Abstractions\Demo.Orchestrate.Abstractions.010.csproj" />
+  </ItemGroup>
+
+</Project>

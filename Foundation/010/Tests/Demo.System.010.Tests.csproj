@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Applinate.Microservice.Foundation" Version="0.7.0" />
+    <PackageReference Include="Applinate.Microservice.InversionOfControl.Microsoft" Version="0.7.0" />
+    <PackageReference Include="Applinate.Microservice.UnitTestHelper" Version="0.7.0" />
+    <PackageReference Include="FluentAssertions" Version="6.8.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
+    <PackageReference Include="xunit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.2.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Integration\Main\Implementation\Demo.Integrate.Implementation.010.csproj" />
+    <ProjectReference Include="..\Orchestration\Main\Abstractions\Demo.Orchestrate.Abstractions.010.csproj" />
+    <ProjectReference Include="..\Orchestration\Main\Implementation\Demo.Orchestrate.Implementation.010.csproj" />
+  </ItemGroup>
+
+</Project>

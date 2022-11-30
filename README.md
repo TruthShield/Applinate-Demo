@@ -10,3 +10,5 @@
 6. [Request and Response Decoration](/Foundation/006)
 7. [Request Interception](/Foundation/007)
 8. [Interception Factory (all requests intercepted)](/Foundation/008)
+9. [Testing - ApplinateTestBase](/Foundation/009)
+10. [Testing - Service Black-Box Testing](/Foundation/010)
